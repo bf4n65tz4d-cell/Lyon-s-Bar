@@ -24,8 +24,6 @@ export default function MentionsLegales() {
             color: "var(--brand-muted)",
             transition: "color 0.25s",
           }}
-          onMouseEnter={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--brand-white)")}
-          onMouseLeave={(e) => ((e.currentTarget as HTMLElement).style.color = "var(--brand-muted)")}
         >
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
             <path d="M10 3L5 8l5 5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
